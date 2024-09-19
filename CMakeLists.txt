@@ -343,7 +343,7 @@ if (APPLE)
   endif ()
 endif (APPLE)
 
-set(DOWNLOAD_SERVER "https://github.com/AlecDusheck/openpose/raw/master/" CACHE STRING "Server from which the models and 3rdparty libraries will be downloaded from.")
+set(DOWNLOAD_SERVER "https://github.com/AlecDusheck/openpose/blob/caffee-models/" CACHE STRING "Server from which the models and 3rdparty libraries will be downloaded from.")
 mark_as_advanced(DOWNLOAD_SERVER)
 
 ### FIND REQUIRED PACKAGES
